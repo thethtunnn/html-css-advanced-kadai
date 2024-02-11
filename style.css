@@ -1,0 +1,54 @@
+/* body reset */
+body{           
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* bullet is reset */
+
+#cases{
+    margin-top: 40px;
+    margin-bottom:40pc ;
+    width: 100%;
+
+ 
+    background-color: aquamarine;
+
+}
+
+.case-card {
+     background-color: #ffffff;
+     min-height: 400px;
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.2)
+    
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+ul > li{
+   max-width:  33%;
+    margin: 20px;
+    
+    
+}
+.case-img {
+     width: 100%; /*image width not declare image is widder than parent div */
+    /* object-fit: covers; */
+
+}
+.case-info{
+    padding: 10px 20px;
+}
+.case-name {
+    color: #2710d5;
+    font-size: 19px;
+}
+
+.case-content {
+    font-size: 14px;
+}
