@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic Cafe for pc an smartphone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <!-- here is logo -->
+        <a href="index.html" id="logo">
+        <img src="images/logo.png" alt="トップページに戻る"/>
+        </a>
+    
+
+            <!-- nav bar for pc -->
+
+        <nav id="nav-pc">
+            <a href="index.html#concept">CONCEPT</a>
+            <a href="index.html#product">PRODUCT</a>
+            <a href="index.html#contact">CONTACT</a>
+        </nav>
+         <!-- スマホ用メニューボタン -->
+    <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+    <nav id="nav-sp">
+        <img id="close" src="images/button-close.png" alt="close navigation" onclick="document.getElementById('nav-sp').style.display = 'none'">
+
+        <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img
+        src="images/logo-sp.png" alt="トップページに戻る"></a>
+
+        <a class="menu" href="index.html" id="concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+        <a class="menu" href="index.html" id="product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+        <a class="menu" href="index.html" id="contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+    </nav>
+
+  </header>
+    </header>
+    
+    <!-- smart phone nav -->
+    <main>
+        <article>
+            <!-- メインビジュアル -->
+            <section id="main-visual">
+                <div id="main-message">
+                    <h1>Orgainc Cafe</h1>
+                    <p>自家焙煎コーヒーが買えるお店</p>
+                </div>
+                <img
+                src="images/main-image.jpg"
+                alt="コーヒーをハンドドリップで淹れる画像"
+                />
+            </section>
+        </article>
+    </main>
+</body>
+</html>
